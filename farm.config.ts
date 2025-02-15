@@ -6,7 +6,7 @@ export default defineConfig({
       index: "./index.html",
     },
     output: {
-      path: "./build",
+      path: "./dist",
       publicPath: "/",
     },
     lazyCompilation: false,
