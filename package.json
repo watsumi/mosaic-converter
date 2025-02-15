@@ -1,7 +1,8 @@
 {
-	"name": "farm-project",
+	"name": "mosaic-converter",
 	"type": "module",
 	"version": "1.0.0",
+	"homepage": "https://watsumi.github.io/mosaic-converter",
 	"scripts": {
 		"dev": "farm start",
 		"start": "farm start",
