@@ -16,7 +16,7 @@ import { useMosaicImage } from "./use-mosaic-image";
 export function DropzoneButton() {
   const theme = useMantineTheme();
   const openRef = useRef<() => void>(null);
-  const [value, setValue] = useState(50);
+  const [value, setValue] = useState(10);
   const [imageSrc, setImageSrc] = useState<string | null>(null);
   const [processedSrc, setProcessedSrc] = useState<string | null>(null);
   const mosaicImage = useMosaicImage();

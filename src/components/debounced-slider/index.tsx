@@ -2,8 +2,8 @@ import { Slider } from "@mantine/core";
 
 const marks = [
   { value: 0, label: "0" },
+  { value: 25, label: "25" },
   { value: 50, label: "50" },
-  { value: 100, label: "100" },
 ];
 
 type Props = {
@@ -29,7 +29,7 @@ export const DebouncedSlider = ({
       defaultValue={value}
       marks={marks}
       onChange={bounsedOnChange}
-      max={100}
+      max={50}
       step={1}
     />
   );
